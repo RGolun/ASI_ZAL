@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @ball.brand %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @ball.size %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @ball.description %>
+</p>
+
+<%= link_to 'Edit', edit_ball_path(@ball) %> |
+<%= link_to 'Back', balls_path %>
