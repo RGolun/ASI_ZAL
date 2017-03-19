@@ -10,8 +10,8 @@ Aplikacja umożliwia dodawanie do bazy danych piłek.W późniejszej fazie proje
 dodane dodatkowe tabele umożliwiające działanie na tej aplikacji.
 
 ### Wykorzystane dodatkowe gemy:
- devise - implementacja systemu rejestracji i logowania użytkowników
- devise-bootstrapped - szablon Bootstrap'a dla Devise
- bootstrap-sass - Bootstrap dla SASS
- bootswatch-rails - motywy do Bootstrap'a
+- devise - implementacja systemu rejestracji i logowania użytkowników
+- devise-bootstrapped - szablon Bootstrap'a dla Devise
+- bootstrap-sass - Bootstrap dla SASS
+- bootswatch-rails - motywy do Bootstrap'a
 
