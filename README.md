@@ -1,24 +1,17 @@
-# README
+## Radosław Gołuński (zaliczenie)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+| Wersja Ruby   | Wersja Rails  | Baza danych            | Framework |
+| ------------- |:-------------:|:----------------------:|:---------:|
+| 2.4.0p0       | 5.0.1         | SQLite - lokalnie<br />PostgreSQL - Heroku      | Bootstrap |
 
-Things you may want to cover:
 
-* Ruby version
+### Temat: Piłki
+Aplikacja umożliwia dodawanie do bazy danych piłek.W późniejszej fazie projektu do aplikacji zostaną
+dodane dodatkowe tabele umożliwiające działanie na tej aplikacji.
 
-* System dependencies
+### Wykorzystane dodatkowe gemy:
+ devise - implementacja systemu rejestracji i logowania użytkowników
+ devise-bootstrapped - szablon Bootstrap'a dla Devise
+ bootstrap-sass - Bootstrap dla SASS
+ bootswatch-rails - motywy do Bootstrap'a
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
