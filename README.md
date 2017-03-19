@@ -2,7 +2,7 @@
 
 | Wersja Ruby   | Wersja Rails  | Baza danych            | Framework |
 | ------------- |:-------------:|:----------------------:|:---------:|
-| 2.4.0p0       | 5.0.1         | SQLite - lokalnie<br />PostgreSQL - Heroku      | Bootstrap |
+| 2.4.0p0       | 5.0.2         | SQLite - lokalnie<br />PostgreSQL - Heroku      | Bootstrap |
 
 :white_check_mark: [link](https://nameless-hamlet-16520.herokuapp.com/)
 
