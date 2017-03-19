@@ -2,8 +2,9 @@
 
 <h1>Balls</h1>
 
-<table>
-  <thead>
+<%= link_to 'Add New Ball', new_ball_path, :class => "btn btn-success"%>
+<table class="table">
+  <thead class="thead thead-inverse">
     <tr>
       <th>Brand</th>
       <th>Size</th>
@@ -18,14 +19,12 @@
         <td><%= ball.brand %></td>
         <td><%= ball.size %></td>
         <td><%= ball.description %></td>
-        <td><%= link_to 'Show', ball %></td>
-        <td><%= link_to 'Edit', edit_ball_path(ball) %></td>
-        <td><%= link_to 'Destroy', ball, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', ball,:class => "btn btn-info btn-lg round btn-sm" %></td>
+        <td><%= link_to 'Edit', edit_ball_path(ball) , :class => "btn btn-default btn-lg round btn-sm" %></td>
+        <td><%= link_to 'Destroy', ball, method: :delete, data: { confirm: 'Are you sure?' } ,:class => "btn btn-danger btn-lg round btn-sm"%></td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
-<%= link_to 'New Ball', new_ball_path %>
