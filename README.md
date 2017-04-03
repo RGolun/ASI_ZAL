@@ -15,4 +15,5 @@ dodane dodatkowe tabele umożliwiające działanie na tej aplikacji.
 - devise-bootstrapped - szablon Bootstrap'a dla Devise
 - bootstrap-sass - Bootstrap dla SASS
 - bootswatch-rails - motywy do Bootstrap'a
+- faker - randomowe dane
 
