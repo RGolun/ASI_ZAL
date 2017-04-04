@@ -5,5 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-40.times do
-Ball.create(brand: Faker::Company.name,size: Faker::Number.between(1, 6),description: Faker::Lorem.words)end
+Ball.destroy_all
+
+open("db/balls.txt") do |balls|
+  balls.read.each_line do |data|
+    brand, size, description = data.chomp.split("|")
+    Ball.create!(:brand => brand, :size => size, :description => description)
+  end
+end
