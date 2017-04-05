@@ -4,7 +4,7 @@
 | ------------- |:-------------:|:----------------------:|:---------:|
 | 2.4.0p0       | 5.0.2         | SQLite - lokalnie<br />PostgreSQL - Heroku      | Bootstrap |
 
-:white_check_mark: [link](https://nameless-hamlet-16520.herokuapp.com/)
+:white_check_mark: [link](https://rocky-earth-73598.herokuapp.com)
 
 
 
