@@ -4,7 +4,12 @@ class BallsController < ApplicationController
   # GET /balls
   # GET /balls.json
   def index
-    @balls = Ball.all
+  @balls = Ball.all
+    if params[:search]
+      @balls = Ball.search(params[:search]).order("created_at")
+    else
+      @balls = Ball.all.order('created_at')
+    end
   end
 
   # GET /balls/1

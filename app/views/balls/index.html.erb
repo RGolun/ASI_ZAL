@@ -1,5 +1,11 @@
 <p id="notice"><%= notice %></p>
 
+
+
+<%= form_tag(balls_path, :method => "get", id: "search-form") do %>
+<%= text_field_tag :search, params[:search], placeholder: "Search Balls" %>
+<%= submit_tag "Search" %>
+<% end %>
 <h1>Balls</h1>
 
 <%= link_to 'Add New Ball', new_ball_path, :class => "btn btn-success"%>

@@ -5,7 +5,7 @@
 | 2.4.0p0       | 5.0.2         | SQLite - lokalnie<br />PostgreSQL - Heroku      | Bootstrap |
 
 :white_check_mark: [link](https://nameless-hamlet-16520.herokuapp.com/)
-:white_check_mark: [link](https://still-beach-46035.herokuapp.com)
+
 
 
 ### Temat: Piłki
@@ -18,4 +18,3 @@ dodane dodatkowe tabele umożliwiające działanie na tej aplikacji.
 - bootstrap-sass - Bootstrap dla SASS
 - bootswatch-rails - motywy do Bootstrap'a
 - faker - randomowe dane
-
